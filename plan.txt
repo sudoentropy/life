@@ -1,0 +1,11 @@
+basic plan:
+	1. figure oout how to make a grid or player board
+	2. figure out how to store changes in the player board
+	via user inputs
+	3. implement game of life rules on a if __name__ == "__main__"
+	type set up
+
+
+notes on 1:
+	1. grid has been developed but I don't know how user input friendly
+	it it is
