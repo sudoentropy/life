@@ -14,18 +14,18 @@
 
 # next attempt at printing a grid
 
-gridline = []
-for i in range(5):
-    gridline.append("")
+# gridline = []
+# for i in range(5):
+    # gridline.append("")
 
-grid = []
-for i in range(5):
-    grid.append(list(gridline))
+# grid = []
+# for i in range(5):
+    # grid.append(list(gridline))
 
-print(grid)
-print("\n")
-print(gridline)
-print("\n")
+# print(grid)
+# print("\n")
+# print(gridline)
+# print("\n")
 
 
 ### this grid is the winner, it seems to print symmetrically without much
