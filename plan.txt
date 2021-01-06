@@ -8,4 +8,8 @@ basic plan:
 
 notes on 1:
 	1. grid has been developed but I don't know how user input friendly
-	it it is
+	it is
+
+	2. i think one may have been a giant waste of time, who knows, at least i learned to print a neat and tidy grid
+
+	studying battleship, seems like the mechanics will work, storage, user input, etc
