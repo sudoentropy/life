@@ -2,11 +2,13 @@
 
 
 def renderStage(sheight, swidth):
-    print("+"+"-"*sheight+"+")
+    ends = ("+"+"-"*sheight+"+")
+    print(ends)
 
     for i in range(sheight):
         print("|"+"-"*swidth+"|")
 
+    print(ends)
 
 
 if __name__ == "__main__":
