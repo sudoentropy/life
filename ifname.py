@@ -2,7 +2,10 @@
 
 
 def renderStage(sheight, swidth):
-    print("+"+"-"*sheight+"+ ")
+    print("+"+"-"*sheight+"+")
+
+    for i in range(sheight):
+        print("|"+"-"*swidth+"|")
 
 
 
