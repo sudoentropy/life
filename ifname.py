@@ -4,11 +4,12 @@ def renderStage(sheight, swidth, seed):
     ends = "+"+"-"*sheight+"+"
     print(ends)
 
+
+    seed_set = set(seed)
     for y in range(sheight):
-        print("|"+"-"*swidth+"|")
         row = []
         for x in range(swidth):
-            if (x,y) in seed:
+            if (x,y) in seed_set:
                 cell = "@"
             else:
                 cell = "-"
@@ -18,11 +19,14 @@ def renderStage(sheight, swidth, seed):
 
 
 if __name__ == "__main__":
+    seed = []
 
-    renderStage(10,10, [(3,1),(4,5),(8,1)])
+    while True:
+        inp = input("Add starting blocks: ")
+        xstr, ystr = inp.split(",")
+        x = int(xstr)
+        y = int(ystr)
+        print(x+y)
 
-    inp = input("Add starting blocks: ")
-    xstr, ystr = inp.split(",")
-    x = int(xstr)
-    y = int(ystr)
-    print(x+y)
+        seed.append((x,y))
+        renderStage(30, 30, seed)
