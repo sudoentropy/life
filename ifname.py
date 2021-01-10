@@ -4,7 +4,6 @@ def renderStage(sheight, swidth, seed):
     ends = "+"+"-"*sheight+"+"
     print(ends)
 
-
     seed_set = set(seed)
     for y in range(sheight):
         row = []
