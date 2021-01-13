@@ -4,11 +4,10 @@ def renderStage(sheight, swidth, seed):
     ends = "+"+"-"*sheight+"+"
     print(ends)
 
-    seed_set = set(seed)
     for y in range(sheight):
         row = []
         for x in range(swidth):
-            if (x,y) in seed_set:
+            if (x,y) in seed:
                 cell = "@"
             else:
                 cell = "-"
